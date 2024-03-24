@@ -1,0 +1,32 @@
+
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif; /* Use non-default font */
+}
+
+/* Apply hover effect to the link */
+a {
+    text-decoration: none; /* Remove underline */
+    color: #336699; /* Custom color for link */
+}
+
+a:hover {
+    color: #FF6347; /* Change color on hover */
+}
+
+/* Apply border and rounded corners to the image */
+img {
+    border: 2px solid #000; /* Add border */
+    border-radius: 10px; /* Add rounded corners */
+    
+}
+
+/* Apply different background color to every second row in the table */
+table tr:nth-child(even) {
+    background-color: #ff0000; /* Custom background color */
+}
+
+/* Remove default bullet points from the list */
+ul {
+    list-style-type: none; /* Remove bullet points */
+}
